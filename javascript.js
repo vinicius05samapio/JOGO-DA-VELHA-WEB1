@@ -104,10 +104,10 @@ function opponentChanged() {
 
     if (opponentSelect.value === 'computer') {
         player2Input.value = 'Máquina';
-        player2Input.setAttribute('readonly', true); // Impede a edição do input
+        player2Input.setAttribute('readonly', true);
     } else {
-        player2Input.value = ''; // Limpa o valor do input
-        player2Input.removeAttribute('readonly'); // Permite a edição do input
+        player2Input.value = '';
+        player2Input.removeAttribute('readonly');
     }
 
     resetGame();
