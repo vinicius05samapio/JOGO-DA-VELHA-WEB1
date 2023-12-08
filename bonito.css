@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(fundo.jpg);
+    width: 100%;
+    font-size: large;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.side-panel {
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #505050;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#player1-wins, #player2-wins {
+    display: block;
+    margin-top: 5px;
+}
+.resetar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+
+.TUDO {
+    background-color: rgba(0, 0, 0, 0.404);
+    border: 4px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    position: fixed;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
